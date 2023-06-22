@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(37, 145, 228);
+}
+
+.card {
+  width: 400px;
+  height: auto;
+  margin: 100px auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 3px;
+  row-gap: 20px;
+}
+.card h2 {
+  align-self: center;
+  padding: 20px;
+  font-size: 34px;
+}
+.card .todo_add {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.card .todo_add input {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid rgb(202, 198, 198);
+}
+.card .todo_add i {
+  width: 40px;
+  height: 30px;
+  padding: 8px;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.card .todo_add i:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+.card ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.card ul li {
+  list-style: none;
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  flex-wrap: wrap;
+}
+.card ul li p {
+  width: 260px;
+  height: 30px;
+  background-color: rgb(235, 232, 232);
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.card ul li .edit,
+.card ul li .delete {
+  font-size: 12px;
+  width: 40px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.card ul li .edit:hover,
+.card ul li .delete:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+.card ul li .edit {
+  background-color: green;
+}
+.card ul li .delete {
+  background-color: red;
+}
+.card ul li .editInput {
+  width: 300px;
+  height: 30px;
+  outline: none;
+  margin: 10px 0;
+  padding: 5px;
+}
+.card button {
+  width: 200px;
+  height: 50px;
+  background-color: darkcyan;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  margin: auto;
+  border: none;
+}
+.card button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}/*# sourceMappingURL=style.css.map */
